@@ -24,3 +24,7 @@ The framework is powered by **CrewAI** for agentic orchestration and **MCP** for
 ## 🚀 Installation & Setup
 Currently, the project is in the **Skeleton / Architecture Baseline** phase (April 17 Milestone). 
 
+## Contributors
+* Ali Utku Pekel
+* Alperen Atalay
+
