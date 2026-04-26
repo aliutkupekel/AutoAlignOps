@@ -28,4 +28,5 @@ Currently, the project is in the **Skeleton / Architecture Baseline** phase (Apr
 * Ali Utku Pekel
 * Alperen Atalay
 * Niyazi Berke Gurbuzler
+* Yiğit Kaplan
 
