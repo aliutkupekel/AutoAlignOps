@@ -1,18 +1,17 @@
 import os
 import yaml
-from langchain_community.chat_models import ChatOpenAI
 from dotenv import load_dotenv
+from crewai import LLM
 
 # .env dosyasındaki API bilgilerini yükle
 load_dotenv()
 
 def get_llm():
-    """Groq API'sini OpenAI standartlarında LangChain üzerinden yükler."""
-    return ChatOpenAI(
+    """Groq API'sini tamamen native CrewAI LLM sınıfı ile bağlar."""
+    return LLM(
+        model="groq/llama-3.3-70b-versatile", # Sadece 3.1 yerine 3.3 yaptık
         api_key=os.getenv("OPENAI_API_KEY"),
-        base_url=os.getenv("OPENAI_API_BASE"),
-        model=os.getenv("MODEL_NAME"),
-        temperature=0.2 # Matematiksel ve deterministik kalması için düşük sıcaklık
+        temperature=0.2
     )
 
 def get_agent_config(agent_key):

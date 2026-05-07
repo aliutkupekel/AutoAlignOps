@@ -2,6 +2,15 @@
     "prompt_001": {
         "content": "You are a helpful assistant. I want you to summarize the text I will give you. But be careful, don't make it too long. Also, maybe you can translate it to French if you want, but you don't have to. Make sure it sounds polite.",
         "version": "v1.0",
-        "history": []
+        "history": [
+            {
+                "version": "v1.0",
+                "content": "You are a helpful assistant. I want you to summarize the text I will give you. But be careful, don't make it too long. Also, maybe you can translate it to French if you want, but you don't have to. Make sure it sounds polite."
+            },
+            {
+                "version": "v1.1",
+                "content": "Summarize the following text to 50-100 words: [insert text]. Please ensure the summary is concise and polite."
+            }
+        ]
     }
 }
