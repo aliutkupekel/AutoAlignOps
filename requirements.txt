@@ -1,14 +1,16 @@
 # Multi-Agent Framework
 crewai==0.28.8
-langchain==0.1.16
-langchain-community==0.0.34
+langchain
+langchain-community
+langchain-core
+langsmith
 
-# Embedding & Math (ADR ve Semantic Equivalence için - Bunlar zaten tamamen yerel ve ücretsiz)
+# Embedding & Math (ADR ve Semantic Equivalence için)
 sentence-transformers==2.7.0
 numpy==1.26.4
 
 # Data Validation & MCP Schemas
-pydantic==2.7.0
+pydantic
 
 # Environment & Testing
 python-dotenv==1.0.0
