@@ -1,0 +1,14 @@
+paths:
+  registry: "data/registry/prompts.json"
+  benchmarks: "data/benchmarks/probes.json"
+
+permissions:
+  discovery_agent:
+    - read_registry
+  validator_agent:
+    - read_registry
+    - execute_probe
+  deployer_agent:
+    - read_registry
+    - write_registry
+    - rollback
