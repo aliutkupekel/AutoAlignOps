@@ -4,7 +4,7 @@ from src.agents.optimizer import optimizer_agent
 from src.agents.validator import validator_agent
 from src.agents.deployer import deployer_agent
 
-# Araç SINIFLARINI import ediyoruz
+# we import here the tool classes from registry and probe
 from src.mcp.registry_tools import ReadPromptTool, WritePromptTool
 from src.mcp.probe_tools import ExecuteProbeTool
 
