@@ -9,7 +9,7 @@ load_dotenv()
 def get_llm():
     """Groq API'sini tamamen native CrewAI LLM sınıfı ile bağlar."""
     return LLM(
-        model="groq/llama-3.3-70b-versatile", # Sadece 3.1 yerine 3.3 yaptık
+        model="groq/llama-3.3-70b-versatile", # 18 dakikalık cezamız bitti, kral geri döndü!
         api_key=os.getenv("OPENAI_API_KEY"),
         temperature=0.2
     )
