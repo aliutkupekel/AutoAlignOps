@@ -27,4 +27,4 @@ Currently, the project is in the **Skeleton / Architecture Baseline** phase (Apr
 ## Contributors
 * Ali Utku Pekel
 * Alperen Atalay
-
+* Yiğit Kaplan
