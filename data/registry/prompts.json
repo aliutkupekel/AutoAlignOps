@@ -1,12 +1,1 @@
-{
-    "custom_prompt": {
-        "content": "To generate a short summary, please provide a specific topic or subject. The summary should be concise, approximately 50-100 words, and written in a neutral tone. Ensure the response is informative, avoiding unnecessary details, and focuses on the key points of the topic. The goal is to provide a clear and concise overview, making it easy for the reader to understand the main ideas. Please respond within the given constraints to produce an efficient and effective summary.",
-        "version": "v1.1",
-        "history": [
-            {
-                "version": "v1.1",
-                "content": "Write a concise summary on a specific topic. Limit to 50 words."
-            }
-        ]
-    }
-}
+{}
