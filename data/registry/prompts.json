@@ -1,1 +1,7 @@
-{}
+{
+    "custom_prompt": {
+        "content": "def quicksort(arr: list[int]) -> list[int]:\n    \"\"\"\n    Sorts an array of integers in ascending order using the quicksort algorithm.\n\n    Args:\n        arr (list[int]): The input array to be sorted.\n\n    Returns:\n        list[int]: The sorted array.\n    \"\"\"\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)",
+        "version": "v1.1",
+        "history": []
+    }
+}
